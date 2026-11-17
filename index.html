@@ -65,11 +65,18 @@
     }
 
     section {
-      margin: 1rem 0;
+      margin: 1.25rem 0;
       padding: clamp(1.25rem, 4vw, 2rem);
       border: 1px solid var(--line);
       border-radius: 12px;
       background: var(--card);
+      box-shadow: 0 2px 8px rgba(18, 52, 71, 0.04);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    section:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(18, 52, 71, 0.08);
     }
 
     h2 {
@@ -121,17 +128,17 @@
     <section aria-labelledby="sobre">
       <h2 id="sobre">Sobre este portfólio</h2>
       <p>Este espaço apresenta os principais conceitos e práticas trabalhados no curso, junto com os registros do projeto final.</p>
-      <p class="muted"><strong>Estudante:</strong> [Seu nome]</p>
+      <p class="muted"><strong>Estudante:</strong> João Pedro</p>
     </section>
 
     <section aria-labelledby="aprendizados">
       <h2 id="aprendizados">Aprendizados</h2>
       <ul>
-        <li>Uso do Git pelo terminal para acompanhar alterações.</li>
-        <li>Organização do trabalho com branches e commits descritivos.</li>
-        <li>Uso do GitHub para compartilhar alterações e colaborar em projetos.</li>
+        <li>Uso do Git pelo terminal para acompanhar alterações e histórico de commits.</li>
+        <li>Padronização de mensagens com Conventional Commits.</li>
+        <li>Organização do trabalho em branches e integração por Pull Requests no GitHub.</li>
+        <li>Acompanhamento de tarefas com Issues e publicação com GitHub Pages.</li>
       </ul>
-      <p class="muted">Revise esta lista para refletir somente sua experiência real.</p>
     </section>
 
     <section aria-labelledby="projeto">
@@ -142,7 +149,7 @@
   </main>
 
   <footer>
-    <p>Fundamentos de Git e GitHub · CEFET-MG · Projeto individual</p>
+    <p>Fundamentos de Git e GitHub · CEFET-MG · Projeto individual de João Pedro</p>
   </footer>
 </body>
 </html>
