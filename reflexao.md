@@ -14,4 +14,4 @@ Mesmo em projetos individuais, usar branches e mensagens semânticas ajuda a man
 
 ## Próximos passos
 
-[Registre o que gostaria de aprofundar ou aplicar em um próximo projeto.]
+Nos próximos projetos, pretendo aplicar esse mesmo fluxo com Git e GitHub desde o início, explorando também recursos como revisão de código em Pull Requests e resolução de conflitos de merge.
