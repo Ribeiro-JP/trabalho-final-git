@@ -5,10 +5,6 @@ Portfólio individual desenvolvido como Projeto Integrador Final do curso
 do curso, registros das práticas realizadas e uma reflexão pessoal sobre o
 processo de aprendizagem.
 
-> **Antes de entregar:** substitua os campos entre colchetes pelos seus dados
-> e confirme que as atividades descritas correspondem ao que você realmente
-> fez.
-
 ## Sobre o projeto
 
 O objetivo deste repositório é demonstrar, por meio de um projeto organizado,
@@ -24,9 +20,6 @@ integrar mudanças por pull requests e documentar o processo.
 - Colaboração e integração de mudanças por pull requests no GitHub.
 - Acompanhamento de tarefas com issues.
 - Publicação de uma página estática com GitHub Pages.
-
-Atualize esta lista para manter apenas os tópicos que você praticou durante o
-curso e neste projeto.
 
 ## Estrutura
 
@@ -73,6 +66,6 @@ outros projetos.
 
 ## Autoria
 
-**Estudante:** [Seu nome]  
+**Estudante:** João Pedro  
 **Curso:** Fundamentos de Git e GitHub — CEFET-MG  
 **Formato:** Projeto individual
