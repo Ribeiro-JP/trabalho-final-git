@@ -5,10 +5,6 @@ Portfólio individual desenvolvido como Projeto Integrador Final do curso
 do curso, registros das práticas realizadas e uma reflexão pessoal sobre o
 processo de aprendizagem.
 
-> **Antes de entregar:** substitua os campos entre colchetes pelos seus dados
-> e confirme que as atividades descritas correspondem ao que você realmente
-> fez.
-
 ## Sobre o projeto
 
 O objetivo deste repositório é demonstrar, por meio de um projeto organizado,
@@ -24,9 +20,6 @@ integrar mudanças por pull requests e documentar o processo.
 - Colaboração e integração de mudanças por pull requests no GitHub.
 - Acompanhamento de tarefas com issues.
 - Publicação de uma página estática com GitHub Pages.
-
-Atualize esta lista para manter apenas os tópicos que você praticou durante o
-curso e neste projeto.
 
 ## Estrutura
 
@@ -44,26 +37,21 @@ pacotes ou de um servidor.
 
 ## Publicação com GitHub Pages
 
-Depois de enviar este repositório ao GitHub:
+O site estático é publicado a partir da branch `main` (pasta `/ (root)`):
 
-1. Abra **Settings → Pages**.
+1. Acesse **Settings → Pages** no repositório do GitHub.
 2. Em **Build and deployment**, selecione **Deploy from a branch**.
-3. Escolha a branch `main` e a pasta `/ (root)`, depois salve.
-4. Aguarde a publicação e confira o endereço informado pelo GitHub.
-
-Inclua aqui o link público do site depois de confirmar que ele está acessível:
-**[Adicionar URL do GitHub Pages]**
+3. Escolha a branch `main` e a pasta `/ (root)`, depois clique em **Save**.
 
 ## Histórico e colaboração
 
-O histórico final deve conter pelo menos 10 commits relevantes, escritos com
-Conventional Commits, além de três branches de trabalho além de `main`. Integre
-as alterações por pull requests e use issues para descrever tarefas reais,
-encerrando-as com referências `Closes #N` nos pull requests correspondentes.
+O desenvolvimento foi organizado com histórico semântico no padrão **Conventional Commits** (`feat`, `docs`, `style`, `fix`) e dividido em três branches temáticas integradas via Pull Requests:
 
-Exemplos de tipos de commit: `docs`, `feat`, `fix` e `style`. Use mensagens que
-descrevam a alteração efetivamente realizada. Não registre tarefas, revisões ou
-publicações que não aconteceram.
+- `feat/estilizacao-e-autoria`: personalização do portfólio e melhorias visuais em `index.html`.
+- `docs/readme-completo`: documentação profissional e instruções do projeto em `README.md`.
+- `docs/reflexao-aprendizado`: análise crítica do aprendizado em `reflexao.md`.
+
+As tarefas do projeto foram registradas em Issues e encerradas automaticamente por meio da referência `Closes #N` nos Pull Requests correspondentes.
 
 ## Reflexão
 
@@ -73,6 +61,6 @@ outros projetos.
 
 ## Autoria
 
-**Estudante:** [Seu nome]  
+**Estudante:** João Pedro  
 **Curso:** Fundamentos de Git e GitHub — CEFET-MG  
 **Formato:** Projeto individual
