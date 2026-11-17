@@ -1,20 +1,16 @@
 # Reflexão sobre o aprendizado
 
-> Escreva esta reflexão com suas próprias palavras. Use as perguntas abaixo
-> como guia e remova-as quando terminar.
-
 ## O que aprendi
 
-[Conte o que aprendeu sobre Git, GitHub e o uso do terminal.]
+Durante o curso Fundamentos de Git e GitHub, aprendi a controlar versões de projetos diretamente pelo terminal, criando commits organizados com o padrão Conventional Commits e estruturando o desenvolvimento em branches separadas antes de integrar as mudanças na `main`.
 
 ## Desafios e soluções
 
-[Descreva uma dificuldade real que encontrou e como resolveu.]
+A principal dificuldade inicial foi entender a diferença entre o repositório local e o remoto, além do fluxo de criação de branches e Pull Requests. Com a prática dos comandos (`git status`, `git checkout -b`, `git add`, `git commit` e `git push`), o processo ficou bem mais claro e natural.
 
 ## Uso em trabalhos individuais ou em grupo
 
-[Explique como o controle de versão pode ajudar a organizar e integrar o
-trabalho.]
+Mesmo em projetos individuais, usar branches e mensagens semânticas ajuda a manter o histórico limpo e facilita voltar atrás se algo quebrar. Em equipe, esse fluxo com Issues e Pull Requests evita conflitos e organiza melhor quem faz o quê.
 
 ## Próximos passos
 
