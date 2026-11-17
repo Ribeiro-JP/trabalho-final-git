@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio individual do curso Fundamentos de Git e GitHub, do CEFET-MG.">
+  <title>Portfólio | Fundamentos de Git e GitHub</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172b3a;
+      --muted: #526576;
+      --paper: #f4f7f8;
+      --card: #ffffff;
+      --accent: #087e8b;
+      --line: #d7e1e5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    header {
+      padding: 4.5rem 1.25rem 3.5rem;
+      background: #123447;
+      color: #fff;
+    }
+
+    .wrap {
+      width: min(100% - 2rem, 920px);
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 .75rem;
+      color: #a9e3df;
+      font-size: .85rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 720px;
+      margin: 0;
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      line-height: 1.1;
+    }
+
+    header p:last-child {
+      max-width: 650px;
+      margin: 1.25rem 0 0;
+      color: #e2edf0;
+    }
+
+    main {
+      padding-block: 2rem 4rem;
+    }
+
+    section {
+      margin: 1rem 0;
+      padding: clamp(1.25rem, 4vw, 2rem);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--card);
+    }
+
+    h2 {
+      margin: 0 0 .75rem;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: .5rem 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    ul {
+      margin: .5rem 0 0;
+      padding-left: 1.25rem;
+    }
+
+    li + li {
+      margin-top: .35rem;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 650;
+      text-underline-offset: .2em;
+    }
+
+    footer {
+      padding: 1.5rem 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Projeto Integrador Final · CEFET-MG</p>
+      <h1>Fundamentos de Git e GitHub</h1>
+      <p>Um registro individual das práticas de controle de versão, colaboração e publicação realizadas ao longo do curso.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="sobre">
+      <h2 id="sobre">Sobre este portfólio</h2>
+      <p>Este espaço apresenta os principais conceitos e práticas trabalhados no curso, junto com os registros do projeto final.</p>
+      <p class="muted"><strong>Estudante:</strong> [Seu nome]</p>
+    </section>
+
+    <section aria-labelledby="aprendizados">
+      <h2 id="aprendizados">Aprendizados</h2>
+      <ul>
+        <li>Uso do Git pelo terminal para acompanhar alterações.</li>
+        <li>Organização do trabalho com branches e commits descritivos.</li>
+        <li>Uso do GitHub para compartilhar alterações e colaborar em projetos.</li>
+      </ul>
+      <p class="muted">Revise esta lista para refletir somente sua experiência real.</p>
+    </section>
+
+    <section aria-labelledby="projeto">
+      <h2 id="projeto">Projeto final</h2>
+      <p>O repositório documenta o desenvolvimento deste portfólio. Consulte o README para conhecer sua estrutura e as instruções de publicação.</p>
+      <p><a href="reflexao.md">Ler a reflexão de aprendizagem</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Fundamentos de Git e GitHub · CEFET-MG · Projeto individual</p>
+  </footer>
+</body>
+</html>
